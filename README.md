@@ -1,10 +1,9 @@
 # Cloud Agency Configurations
 
 
-## Agent Configurations
-- Witness: `https://opsecid.github.io/cloud-agency-configs/agents/witness.yaml`
-- Multitenant: `https://opsecid.github.io/cloud-agency-configs/agents/multitenant.yaml`
+## Agent Configs
+- Witness: `https://config.cloudagent.agency/acapy/witness.yaml`
+- Multitenant: `https://config.cloudagent.agency/acapy/multitenant.yaml`
 
-- https://config.cloudagent.agency/acapy/witness.yaml
-- https://config.cloudagent.agency/acapy/multitenant.yaml
-- https://config.cloudagent.agency/acapy/Caddyfile
+## Caddy
+- Caddyfile: `https://config.cloudagent.agency/acapy/Caddyfile`
