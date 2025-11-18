@@ -1,5 +1,5 @@
 ---
-label: Witness Service
+label: Multitenant Agency
 
 auto-provision: true
 recreate-wallet: false
@@ -19,7 +19,7 @@ multitenant-admin: true
 no-ledger: true
 
 wallet-type: askar-anoncreds
-wallet-name: witness-service-wallet
+wallet-name: agency-wallet
 wallet-key: change-me
 
 auto-ping-connection: true
@@ -42,5 +42,6 @@ plugin:
   - webvh
 
 plugin-config-value:
-  - webvh.witness=true
+  - webvh.auto_config=false
+  - webvh.witness=false
   - webvh.server_url=https://demo.identifier.me
