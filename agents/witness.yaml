@@ -38,7 +38,6 @@ plugin:
   - webvh
 
 plugin-config-value:
+  - webvh.auto_config=true
   - webvh.witness=true
-  - did-webvh.witness=true
   - webvh.server_url=https://demo.identifier.me
-  - did-webvh.server_url=https://demo.identifier.me
