@@ -1,12 +1,9 @@
 # Cloud Agency Configurations
 
-
 ## Agent Configs
-- Witness:
-  - `https://config.cloudagent.agency/acapy/witness.yaml`
-- Multitenant:
-  - `https://config.cloudagent.agency/acapy/multitenant.yaml`
+- `https://config.cloudagent.agency/witness.yaml`
+- `https://config.cloudagent.agency/controller.yaml`
+- `https://config.cloudagent.agency/multitenant.yaml`
 
-## Caddy
-- Caddyfile:
-  - `https://config.cloudagent.agency/acapy/Caddyfile`
+## Caddyfile
+- `https://config.cloudagent.agency/Caddyfile`
