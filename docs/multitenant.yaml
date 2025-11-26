@@ -1,6 +1,8 @@
 ---
 label: Multitenant Agency
 
+log-level: info
+
 auto-provision: true
 recreate-wallet: false
 
