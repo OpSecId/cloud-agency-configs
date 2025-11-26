@@ -2,6 +2,8 @@
 label: Witness Service
 endpoint: https://demo.cloudagent.agency
 
+log-level: info
+
 auto-provision: true
 recreate-wallet: false
 
