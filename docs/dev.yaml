@@ -15,7 +15,7 @@ outbound-transport: [ws, http]
 genesis-url: https://test.bcovrin.vonx.io/genesis
 tails-server-base-url: https://tails-dev.vonx.io
 
-wallet-type: askar-anoncreds
+wallet-type: askar
 wallet-name: dev-agent-wallet
 wallet-key: change-me
 
