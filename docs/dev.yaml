@@ -6,6 +6,7 @@ recreate-wallet: true
 
 admin: [0.0.0.0, 8020]
 admin-insecure-mode: true
+wallet-allow-insecure-seed: true
 
 inbound-transport:
    - [ws, 0:0:0:0:0:0:0:0, 8021]
