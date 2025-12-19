@@ -35,6 +35,10 @@ auto-respond-presentation-request: true
 
 preserve-exchange-records: true
 
+multitenant: true
+jwt-secret: change-me
+multitenant-admin: true
+
 # plugin:
 #   - webvh
 
