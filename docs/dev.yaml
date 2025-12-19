@@ -34,10 +34,10 @@ auto-respond-presentation-request: true
 
 preserve-exchange-records: true
 
-plugin:
-  - webvh
+# plugin:
+#   - webvh
 
-plugin-config-value:
-  - webvh.auto_config=false
-  - webvh.witness=false
-  - webvh.server_url=https://demo.identifier.me
+# plugin-config-value:
+#   - webvh.auto_config=false
+#   - webvh.witness=false
+#   - webvh.server_url=https://demo.identifier.me
