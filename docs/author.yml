@@ -1,0 +1,35 @@
+# author.yml - ACA-Py Author (requests endorsement from Endorser)
+
+auto-provision: true
+label: author
+
+inbound-transport:
+  - [ws, 0.0.0.0, 8021]
+  - [http, 0.0.0.0, 8022]
+outbound-transport: [ws, http]
+
+admin: [0.0.0.0, 8020]
+admin-insecure-mode: true
+
+endpoint: http://localhost:8022
+
+wallet-type: askar-anoncreds
+wallet-storage-type: default
+wallet-name: author-wallet
+wallet-key: author-wallet-key
+
+genesis-url: https://test.bcovrin.vonx.io/genesis
+
+auto-accept-invites: true
+auto-accept-requests: true
+auto-ping-connection: true
+
+log-level: info
+
+# Author role - requests endorsement from Endorser
+endorser-protocol-role: author
+endorser-public-did: <ENDORSER_PUBLIC_DID>   # Replace with Endorser's public DID
+endorser-alias: endorser                      # Alias of the Endorser connection
+auto-request-endorsement: true
+auto-write-transactions: true
+auto-create-revocation-transactions: true
