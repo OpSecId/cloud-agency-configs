@@ -1,0 +1,30 @@
+---
+auto-provision: true
+label: endorser
+
+inbound-transport:
+  - [ws, 0.0.0.0, 8021]
+  - [http, 0.0.0.0, 8022]
+outbound-transport: ws, http
+
+admin: [0.0.0.0, 8020]
+admin-insecure-mode: true
+
+endpoint: http://localhost:8022
+
+# Wallet - askar-anoncreds uses Askar storage with AnonCreds credential format
+wallet-type: askar-anoncreds
+wallet-storage-type: default
+wallet-name: endorser-wallet
+wallet-key: endorser-wallet-key
+
+genesis-url: https://test.bcovrin.vonx.io/genesis
+
+auto-accept-invites: true
+auto-accept-requests: true
+auto-ping-connection: true
+
+log-level: info
+
+endorser-protocol-role: endorser
+auto-endorse-transactions: true
