@@ -4,8 +4,8 @@ auto-provision: true
 label: author
 
 inbound-transport:
-  - [ws, 0.0.0.0, 8021]
-  - [http, 0.0.0.0, 8022]
+  - [ws, 0:0:0:0:0:0:0:0, 8021]
+  - [http, 0:0:0:0:0:0:0:0, 8022]
 outbound-transport: [ws, http]
 
 admin: [0.0.0.0, 8020]
