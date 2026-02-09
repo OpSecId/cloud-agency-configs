@@ -31,3 +31,8 @@ log-level: info
 
 endorser-protocol-role: endorser
 auto-endorse-transactions: true
+
+invite: true
+invite-multi-use: true
+invite-public: true
+public-invites: true
