@@ -24,6 +24,9 @@ auto-accept-invites: true
 auto-accept-requests: true
 auto-ping-connection: true
 
+endorser-protocol-role: endorser
+auto-endorse-transactions: false
+
 log-level: info
 
 endorser-protocol-role: endorser
