@@ -33,3 +33,4 @@ endorser-alias: endorser                      # Alias of the Endorser connection
 auto-request-endorsement: true
 auto-write-transactions: true
 auto-create-revocation-transactions: true
+auto-promote-author-did: true
