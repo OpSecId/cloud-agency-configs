@@ -30,7 +30,7 @@ auto-endorse-transactions: false
 log-level: info
 
 endorser-protocol-role: endorser
-auto-endorse-transactions: true
+auto-endorse-transactions: false
 
 invite: true
 invite-multi-use: true
