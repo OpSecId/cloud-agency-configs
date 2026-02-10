@@ -19,6 +19,7 @@ wallet-name: author-wallet
 wallet-key: author-wallet-key
 
 genesis-url: https://test.bcovrin.vonx.io/genesis
+tails-server-base-url: https://tails-dev.vonx.io
 
 auto-accept-invites: true
 auto-accept-requests: true
