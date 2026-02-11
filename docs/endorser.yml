@@ -33,3 +33,14 @@ invite: true
 invite-multi-use: true
 invite-public: true
 public-invites: true
+
+
+# Plugins
+auto-install-plugins: 1.4.0
+plugin:
+  - webvh
+
+plugin-config-value:
+  - webvh.auto_config=true
+  - webvh.witness=true
+  - webvh.server_url=https://demo.identifier.me
