@@ -29,7 +29,6 @@ log-level: info
 
 # Author role - requests endorsement from Endorser
 endorser-protocol-role: author
-endorser-public-did: <ENDORSER_PUBLIC_DID>   # Replace with Endorser's public DID
 endorser-alias: endorser                      # Alias of the Endorser connection
 auto-request-endorsement: true
 auto-write-transactions: true
