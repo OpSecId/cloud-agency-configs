@@ -35,3 +35,13 @@ auto-request-endorsement: true
 auto-write-transactions: true
 auto-create-revocation-transactions: true
 auto-promote-author-did: true
+
+# Plugins
+auto-install-plugins: 1.4.0
+plugin:
+  - webvh
+
+plugin-config-value:
+  - webvh.auto_config=true
+  - webvh.witness=false
+  - webvh.server_url=https://demo.identifier.me
